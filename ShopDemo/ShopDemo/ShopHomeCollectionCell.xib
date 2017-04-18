@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ShopHomeCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="170" height="250"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="170" height="250"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.png" translatesAutoresizingMaskIntoConstraints="NO" id="xk5-Sl-609">
+                        <rect key="frame" x="8" y="4" width="154" height="214"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="婚礼服饰2017啦啦啦啦啦啦啦" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCg-U3-pgK">
+                        <rect key="frame" x="4" y="221" width="158" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="zsn-bm-99v"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="xk5-Sl-609" secondAttribute="bottom" constant="32" id="F8F-bO-BaY"/>
+                <constraint firstItem="pCg-U3-pgK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="RXT-dc-yDf"/>
+                <constraint firstItem="pCg-U3-pgK" firstAttribute="top" secondItem="xk5-Sl-609" secondAttribute="bottom" constant="3" id="XBg-6H-rea"/>
+                <constraint firstAttribute="trailing" secondItem="xk5-Sl-609" secondAttribute="trailing" constant="8" id="bOA-PH-l0u"/>
+                <constraint firstItem="xk5-Sl-609" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="jzu-Ix-6a0"/>
+                <constraint firstItem="pCg-U3-pgK" firstAttribute="trailing" secondItem="xk5-Sl-609" secondAttribute="trailing" id="oDh-93-qHT"/>
+                <constraint firstItem="xk5-Sl-609" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="oeq-ea-sH4"/>
+            </constraints>
+            <size key="customSize" width="170" height="250"/>
+            <connections>
+                <outlet property="commodityH" destination="zsn-bm-99v" id="j0n-cA-oVV"/>
+            </connections>
+            <point key="canvasLocation" x="94" y="-49"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="2.png" width="148" height="150"/>
+    </resources>
+</document>
